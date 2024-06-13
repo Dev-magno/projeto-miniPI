@@ -71,15 +71,16 @@ nav a:first-child {
 nav a {
     text-decoration: none;
     color: var(--preto);
+    font-size: 1.2rem;
 }
 
 #banner {
     width: 100%;
-    background-image: url('/image/mulher-rosa.jpg');
+    background-image: url('/image/banner.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    height: 400px;
+   
+    height: 570px;
 }
 
 #txt-banner {
@@ -88,7 +89,12 @@ nav a {
     right: 10%;
 }
 
-.conteudo h1 {
+.conteudo h1{
+    text-align: center;
+    padding: 1rem;
+}
+
+.conteudo p{
     text-align: center;
     padding: 1rem;
 }
@@ -108,10 +114,11 @@ nav a {
 
 .card-img img {
     border-radius: 8px 8px 0 0;
+    width: 100%;
 }
 
 .card-content {
     color: var(--branco);
-    padding: 1rem;
+    padding: 0.3rem;
     text-align: center;
 }
