@@ -135,18 +135,80 @@ nav a {
 }
 
 #login {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    width: 250px;
-    height: 500;
+   margin: auto;
+   margin-top: 60px;
+   border-radius: 5px;
+    width: 400px;
+    height: 500px;
     background-color: var(--cor-primaria);
 }
 
-#formulaio {
-    
- 
+#formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
 }
+
+#formulario h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 2rem;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    width: 280px;
+}
+
+.campo label {
+    display: flex;
+    font-size: 23px;
+}
+
+.campo input {
+    font-size: 15px;
+    height: 38px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+form > input[type=submit] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    width: 50%;
+    margin-left: 25%;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
+form > input[type=submit]:hover {
+    background-color: var(--cor-segundaria);
+}
+
+.login-cadastro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2.3rem;
+}
+
+.login-cadastro a {
+    text-decoration: none;
+    color: var(--preto);
+    font-size: 1.3rem;
+}
+
 footer {
     background-color: var(--cor-tres);
     display: flex;
