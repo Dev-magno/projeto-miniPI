@@ -134,6 +134,19 @@ nav a {
     text-align: center;
 }
 
+#login {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 250px;
+    height: 500;
+    background-color: var(--cor-primaria);
+}
+
+#formulaio {
+    
+ 
+}
 footer {
     background-color: var(--cor-tres);
     display: flex;
@@ -196,7 +209,6 @@ footer {
     padding: 15px;
     margin: 0px;
     text-align: center;
-    border-top: solid 2px var(--branco);
     color: #FFFFFF;
     position: absolute;
     bottom: 0;
