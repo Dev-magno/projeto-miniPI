@@ -97,6 +97,7 @@ nav a {
 .conteudo p{
     text-align: center;
     padding: 1rem;
+    font-size: 20px;
 }
 
 .card-container {
@@ -121,4 +122,34 @@ nav a {
     color: var(--branco);
     padding: 0.3rem;
     text-align: center;
+}
+
+footer {
+    background-color: var(--cor-tres);
+    display: flex;
+    padding: 1rem 0; /* Remove padding lateral */
+    margin-top: 4rem;
+    position: relative;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 50px 10px 40px 60px;
+    width: 100%;
+
+}
+
+.rodape-direito {
+    width: 100%;
+    background-color: var(--preto);
+    padding: 15px;
+    margin: 0px;
+    text-align: center;
+    border-top: solid 2px var(--branco);
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
