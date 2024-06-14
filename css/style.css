@@ -209,6 +209,53 @@ form > input[type=submit]:hover {
     font-size: 1.3rem;
 }
 
+#section-cadastro {
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 5px;
+    width: 700px;
+    height: 650px;
+    background-color: var(--cor-primaria);
+}
+
+#div-form {
+    padding: 3rem;
+    
+}
+
+#div-form h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 2rem;
+}
+
+.div-inputs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 1rem;
+}
+
+.dados label {
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.action input[type=submit] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    width: 97%;
+    margin: 0;
+    padding: 0;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
 footer {
     background-color: var(--cor-tres);
     display: flex;

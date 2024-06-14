@@ -35,27 +35,53 @@
     </nav>
 
     <main>
-        <section id="login">
-            <div id="formulario">
-                <h1>Login</h1>
+        <section id="section-cadastro">
+            <div id="div-form">
+                <h1>Cadastrar</h1>
+                <form action="" class="action">
+                    <div class="div-inputs">
+                        <div  class="dados">
+                            <div class="campo">
+                                <label for="ilogin">Nome</label>
+                                <input type="email" name="login" id="ilogin" placeholder="seu email" required maxlength="30">
+                            </div>
 
-                <form action="">
-                    <div class="campo">
-                        <label for="ilogin">E-mail</label>
-                        <input type="email" name="login" id="ilogin" placeholder="seu email" required maxlength="30">
+                            <div class="campo">
+                                <label for="isenha">Email</label>
+                                <input type="password" name="senha" id="isenha" placeholder="sua senha" required minlength="8" maxlength="20">
+                            </div>
+
+                            <div class="campo">
+                                <label for="isenha">CPF</label>
+                                <input type="password" name="senha" id="isenha" placeholder="sua CPF" required minlength="11" maxlength="11">
+                            </div>
+                        </div>
+
+                        <div class="dados">
+                            <div class="campo">
+                                <label for="isenha">Nome de Usuário</label>
+                                <input type="password" name="senha" id="isenha" placeholder="seu nome de Usuário" required maxlength="20">
+                            </div>
+
+                            <div class="campo">
+                                <label for="isenha">Telefone</label>
+                                <input type="password" name="senha" id="isenha" placeholder="seu telefone" required minlength="13" maxlength="13">
+                            </div>
+
+                            <div class="campo">
+                                <label for="isenha">Data de Nascimento</label>
+                                <input type="password" name="senha" id="isenha" placeholder="sua data de nascimento" required minlength="8" maxlength="8">
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="campo">
-                        <label for="isenha">Senha</label>
-                        <input type="password" name="senha" id="isenha" placeholder="sua senha" required minlength="8" maxlength="20">
-                    </div>
                     <input type="submit" value="Entrar">
 
                     <div class="login-cadastro">
                         <a href=""><img src="/image/google.png" alt="logo google de cadastro" width="40px"></a>
 
-                        <a href="cadastro.html">Cadastrar</a>
-                        <a href="">Precisa de Ajuda?</a>
+                        <a href="">Salvar</a>
+                        <a href="login.htm">Já tem conta?</a>
                     </div>
                 </form>
 
