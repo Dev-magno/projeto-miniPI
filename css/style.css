@@ -257,7 +257,8 @@ button:hover {
 .section-faq {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+    margin-top: 2.5rem;
 }
 
 .faq {
@@ -316,7 +317,54 @@ section details p {
     font-weight: bold;
 }
 
+.sobre {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2rem;
+}
 
+.sobre > article {
+    max-width: 50%;
+}
+
+.sobre > article > h1 {
+    font-size: 3rem;
+    padding-top: 2rem;
+}
+
+.sobre > article > p {
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-right: 3rem;
+}
+
+.sobre > article > div {
+    font-size: 1.2rem;
+    text-align: justify;
+    margin: 1rem 3rem 0 0;
+}
+
+#div-sobre{
+    text-align: center;
+    width: 25%;
+    margin-top: 4%;
+}
+
+#div-sobre > img {
+    width: 100%;
+    max-width: 380px;
+    border-radius: 50%;
+}
+
+#div-sobre > div {
+    margin-top: 10px;
+}
+
+#icon-sobre > a > img {
+    width: 30px;
+    height: auto;
+}
 
 footer {
     background-color: var(--cor-tres);
