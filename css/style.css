@@ -62,7 +62,7 @@ header {
     background-color: transparent;
     border: none;
     position: absolute;
-    left: 11%;
+    right: 11%;
     cursor: pointer;
 }
 
@@ -174,7 +174,7 @@ nav a {
     border-radius: 5px;
 }
 
-button {
+#entrar {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -292,11 +292,11 @@ section details p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 5rem;
+    padding-top: 3rem;
 }
 
-#faq-duvida img {
-    width: 40%;
+#img {
+    width: 66%;
     border-radius: 100%;
 }
 
@@ -307,14 +307,20 @@ section details p {
 .contact-link {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 140px;  
+    background-color: var(--cor-primaria);
+    border-radius: 15px;
+    padding: 10px;
 }
 
-.constct-link, a {
+.contact-link img {
+    width: 50px;
+}
+
+#link-tel {
     text-decoration: none;
     color: var(--preto);
     font-weight: bold;
+    margin-left: 30px;
 }
 
 .sobre {
@@ -324,22 +330,17 @@ section details p {
     padding: 2rem;
 }
 
-.sobre > article {
-    max-width: 50%;
+.text {
+    max-width: 60%;
 }
 
-.sobre > article > h1 {
-    font-size: 3rem;
-    padding-top: 2rem;
-}
-
-.sobre > article > p {
+.text p {
     font-size: 1.2rem;
     text-align: justify;
     margin-right: 3rem;
 }
 
-.sobre > article > div {
+.text div {
     font-size: 1.2rem;
     text-align: justify;
     margin: 1rem 3rem 0 0;
@@ -383,7 +384,7 @@ footer {
 
 }
 
-.menu a, .categoria a, .rede-social a {
+.link-menu a, .categoria a, .suporte a {
     display: flex;
     padding-top: 5px;
     text-decoration: none;
@@ -391,14 +392,9 @@ footer {
     color: var(--preto);
 }
 
-.menu li, .categoria li, .rede-social i {
+.link-menu li, .categoria li, .suporte li{
     list-style-type: none;
 
-}
-
-.rede-social {
-    display: flex;
-    flex-direction: column; 
 }
 
 .icon-rodape {
@@ -420,6 +416,7 @@ footer {
 .endereco a {
     text-decoration: none;
     font-size: 0.9rem;
+    color: var(--preto);
 }
 
 
