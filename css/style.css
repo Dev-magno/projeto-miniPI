@@ -414,6 +414,68 @@ section details p {
    margin-bottom: 15px;
 }
 
+#main-container {
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    padding-right: 1rem;
+}
+
+#penta {
+    clip-path: polygon(100% 0%, 100% 82%, 49% 95%, 0 80%, 0 0, 59% 0);
+    background-color: var(--cor-tres);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border-right: 1px solid var(--preto);
+    margin-top: 10px;
+    margin-top: 0;
+}
+
+.checkbox {
+    margin: 10px;
+}
+
+
+.checkbox input {
+    margin-right: 5px;
+}
+
+.content h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.content p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.cartao {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.cartao-recipient {
+    border: 1px solid var(--cor-tres);
+    border-radius: 8px;
+    background-color: var(--cor-segundaria);
+}
+
+.card-imagem{
+    border-radius: 8px 8px 0 0;
+    width: 100%;
+}
+
+.card-text {
+    color: var(--branco);
+    padding: 0.3rem;
+    text-align: center;
+}
 
 footer {
     background-color: var(--cor-tres);
