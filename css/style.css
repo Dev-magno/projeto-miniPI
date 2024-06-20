@@ -36,7 +36,6 @@ header {
 #form-buscar{
     flex-grow: 1;
     display: flex;
-    align-items: center;
     justify-content: center;
     position: relative;
 }
@@ -62,7 +61,7 @@ header {
     background-color: transparent;
     border: none;
     position: absolute;
-    right: 11%;
+    right: 0.5%;
     cursor: pointer;
 }
 
@@ -428,10 +427,10 @@ section details p {
 #main-container {
     display: grid;
     gap: 2rem;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 2fr 10fr;
     justify-content: center;
     padding-left: 1rem;
-    padding-right: 14rem;
+    padding-right: 9rem;
  
 }
 
@@ -443,19 +442,17 @@ section details p {
 .container {
     display: flex;
     flex-direction: column;
-    width: 200px;
     border-right: 1px solid var(--preto);
-    margin-top: 10px;
     margin-top: 0;
 }
 
 .checkbox {
-    margin: 10px;
+    margin: 5px;
 }
 
 
 .checkbox input {
-    margin-right: 5px;
+    margin-right: 2px;
 }
 
 .content h1 {
@@ -472,7 +469,7 @@ section details p {
 .cartao {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    gap: 1rem;
     margin-top: 3rem;
 }
 
@@ -482,14 +479,14 @@ section details p {
     background-color: var(--cor-segundaria);
 }
 
-.card-imagem{
+.card-imagem img{
     border-radius: 8px 8px 0 0;
     width: 100%;
 }
 
 .card-text {
     color: var(--branco);
-    padding: 0.3rem;
+    padding: 3px;
     text-align: center;
 }
 
@@ -551,7 +548,7 @@ section details p {
     padding-left: 30px;
 }
 
-.div-usuario form, div {
+.label-itens {
     padding-top: 18px;
 
 }
@@ -599,29 +596,31 @@ section details p {
 
 
 .div-list {
-    display: flex;
+    display: inline-grid;
     flex-direction: column;
     border-radius: 5px;
     width: 600px;
-    height: 500px;
+    height: 450px;
     margin-top: 10px;
     background-color: var(--cor-tres);
 }
 
 .div-list img {
-    width: 100px;
+    width: 120px;
     border-radius: 5px;
-    margin-right: 15px;
+    margin-right: 14px;
 }
 
-.div-list, div, p {
-    margin-right: 30px;
+.list-p {
+    margin-left: 10px;
+
 }
 
 #item-desejo {
     display: inline-flex;
-    justify-content: center;
     align-items: center;
+    margin-left: 18px;
+
 }
 footer {
     background-color: var(--cor-tres);
