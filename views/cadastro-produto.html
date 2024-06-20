@@ -39,12 +39,25 @@
             <h1>Cadastro de Produto</h1>
             <p>Detalhes do produto</p>
             <div class="desc-produto">
-                <div>
+
+                <div id="desc-itens">
                     <input type="text" name="nome" id="noe" placeholder="nome do produto">
                     <input type="color" name="cor" id="cor" placeholder="cor">
-                    
+                    <input type="text" name="tam" id="tam" placeholder="tamanho">
+                    <input type="text" name="desc" id="desc" placeholder="descrição do produto"> 
                 </div>
-                <div></div>
+
+                <div id="div-arquivo">
+                    <div class="quadro" id="quadro">
+                        <img id="imagemExibida" src="" alt="Sua Imagem" style="display: none;">
+                        <label for="imagemInput" class="custom-file-upload">Adicionar Imagem</label>
+                            <input type="file" id="imagemInput" accept="image/*">
+                    </div>
+                    
+                    <div id="div-textarea">
+                        <textarea name="carac" id="carac" placeholder="Característica, marca, tecido" maxlength="" rows="7" cols="50"></textarea>
+                    </div>
+                </div>
             </div>
          
         </section>          
@@ -110,5 +123,23 @@
         </div>
         <p class="rodape-direito">&copy; 2024 LudoFashion. Todos os direitos reservados.</p>
     </footer>
+
+    <script>
+        document.getElementById('imagemInput').addEventListener('change', function(event) {
+            const file = event.target.files[0];
+            const reader = new FileReader();
+
+            reader.onload = function(e) {
+                const img = document.getElementById('imagemExibida');
+                img.src = e.target.result;
+                img.style.display = 'block';
+            };
+
+            if (file) {
+                reader.readAsDataURL(file);
+            }
+        });
+    </script>
+
 </body>
 </html>

@@ -599,6 +599,9 @@ section details p {
     background-color: var(--cor-segundaria);
 }
 
+.divh1-list {
+    margin-top: 40px;
+}
 
 .div-list {
     display: inline-grid;
@@ -627,6 +630,76 @@ section details p {
     margin-left: 18px;
 
 }
+
+#cd-produto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#cd-produto h1 {
+    margin: 40px 0 0 30px;
+    font-size: 1.7rem;
+}
+
+#cd-produto p {
+    margin-left: 30px;
+    font-size: 1.2rem;
+}
+
+.desc-produto {
+    display: flex;
+    flex-direction: column;
+    margin: 35px 0 0 30px;
+}
+
+#desc-itens input {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+    padding: 5px;
+    width: 13%;
+    height: 30px;
+    border-radius: 3px;
+}
+
+#div-arquivo {
+    display: inline-flex;
+    align-items: center;
+    margin: 30px  0 0 10px;  
+}
+
+#div-textarea {
+    margin: 32px 0 10px 70px;
+}
+
+.quadro {
+    border: 1px solid #000;
+    padding: 40px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.quadro img {
+    max-width: 100%;
+    height: auto;
+}
+
+input[type="file"]{
+    display: none;
+}
+
+.custom-file-upload {
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    font-size: 1.1rem;
+}
+
 footer {
     background-color: var(--cor-tres);
     display: flex;
