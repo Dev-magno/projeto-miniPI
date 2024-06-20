@@ -429,25 +429,30 @@ section details p {
     gap: 2rem;
     grid-template-columns: 2fr 10fr;
     justify-content: center;
-    padding-left: 1rem;
     padding-right: 9rem;
  
 }
 
 #penta {
-    clip-path: polygon(100% 0%, 100% 82%, 49% 95%, 0 80%, 0 0, 59% 0);
+    clip-path: polygon(51% 96%, 100% 63%, 100% 0, 0 0, 0 62%);
     background-color: var(--cor-tres);
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    margin-left: 0;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     border-right: 1px solid var(--preto);
-    margin-top: 0;
 }
 
 .checkbox {
-    margin: 5px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-left: 30px;
 }
 
 
