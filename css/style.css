@@ -300,9 +300,11 @@ section details p {
     border-radius: 100%;
 }
 
+
 #contato {
     text-align: center;
 }
+
 
 .contact-link {
     display: flex;
@@ -311,6 +313,7 @@ section details p {
     border-radius: 15px;
     padding: 10px;
 }
+
 
 .contact-link img {
     width: 50px;
@@ -323,6 +326,7 @@ section details p {
     margin-left: 30px;
 }
 
+
 .sobre {
     display: flex;
     justify-content: space-between;
@@ -330,9 +334,11 @@ section details p {
     padding: 2rem;
 }
 
+
 .text {
     max-width: 60%;
 }
+
 
 .text p {
     font-size: 1.2rem;
@@ -340,11 +346,13 @@ section details p {
     margin-right: 3rem;
 }
 
+
 .text div {
     font-size: 1.2rem;
     text-align: justify;
     margin: 1rem 3rem 0 0;
 }
+
 
 #div-sobre{
     text-align: center;
@@ -352,15 +360,18 @@ section details p {
     margin-top: 4%;
 }
 
+
 #div-sobre > img {
     width: 100%;
     max-width: 380px;
     border-radius: 50%;
 }
 
+
 #div-sobre > div {
     margin-top: 10px;
 }
+
 
 #icon-sobre > a > img {
     width: 30px;
@@ -483,28 +494,27 @@ section details p {
 }
 
 #perfil {
-    display: grid;
-    gap: 2rem;
-    grid-template-columns: repeat(2, 1fr);
+    display: inline-flex;
     justify-content: center;
-    padding-right: 6rem;
+    align-items: center;
+
 }
 
 #pefil-menu {
     display: flex;
     flex-direction: column;
-    width: 20%;
-    margin-left: 1rem;
-    margin-top: 8rem;
+    align-items: flex-start;
+    margin-right: 15rem;
 }
 
 #pefil-menu a {
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
+    color: var(--preto);
 }
 
 #pefil-menu img {
-    width: 60px;
+    width: 57px;
     padding: 10px;
     margin-right: 1rem; 
 
@@ -514,14 +524,7 @@ section details p {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.form-perfil {
-    display: flex;
-    flex-direction: column;
-    width: 200px;
-    margin-top: 10px;
-    margin-top: 0;
+    margin-left: 10rem;
 }
 
 .form-perfil h1 {
@@ -535,34 +538,64 @@ section details p {
 }
 
 .div-usuario {
-    margin: auto;
-    margin-top: 15px;
+    margin-top: 17px;
     border-radius: 5px;
-    width: 800px;
+    width: 700px;
     height: 500px;
     background-color: var(--cor-tres);
 }
 
-.div-usuario form {
+.div-usuario, form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding: 20px;
+    padding-left: 30px;
 }
 
-.div-usuario form div label {
+.div-usuario form, div {
+    padding-top: 18px;
+
+}
+
+.div-usuario form, label {
     font-size: 1.2rem;
 }
 
+.div-usuario form, a {
+    font-size: 0.9rem;
+    margin-left: 5px;
+    text-decoration: none;
+    color: var(--preto);
+}
+
 #input-item {
-    width: 250px;
+    width: 230px;
     height: 27px;
-    padding: 5px;
     border: none;
     outline: none;
     border-radius: 5px;
+    opacity: 35%;
 }
 
+#btn-salvar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 1.2rem;
+    border: none;
+    width: 20%;
+    margin-left: 10rem;
+    border-radius: 5px;
+    background-color: var(--preto);
+    color: var(--branco);
+    font-size: 1rem;
+    font-family:"Oswald", sans-serif;
+    font-weight: bold;
+}
+
+#btn-salvar:hover {
+    background-color: var(--cor-segundaria);
+}
 footer {
     background-color: var(--cor-tres);
     display: flex;
