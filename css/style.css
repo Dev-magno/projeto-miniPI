@@ -632,20 +632,21 @@ section details p {
 }
 
 #cd-produto {
-    display: flex;
+    display: grid;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 #cd-produto h1 {
     margin: 40px 0 0 30px;
     font-size: 1.7rem;
+    text-align: center;
 }
 
-#cd-produto p {
+/* #cd-produto p {
     margin-left: 30px;
     font-size: 1.2rem;
-}
+} */
 
 .desc-produto {
     display: flex;
@@ -655,13 +656,13 @@ section details p {
 
 #desc-itens input {
     display: inline-flex;
-    align-items: center;
-    justify-content: center;
     margin-left: 8px;
     padding: 5px;
-    width: 13%;
+    width: 250px;
     height: 30px;
     border-radius: 3px;
+    border: none;
+    font-size: 0.9rem;
 }
 
 #div-arquivo {
@@ -670,8 +671,10 @@ section details p {
     margin: 30px  0 0 10px;  
 }
 
-#div-textarea {
+#div-textarea textarea {
     margin: 32px 0 10px 70px;
+    border-radius: 5px;
+    font-size: 0.9rem;
 }
 
 .quadro {
