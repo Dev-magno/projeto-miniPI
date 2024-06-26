@@ -353,7 +353,7 @@ section details p {
 }
 
 
-#div-sobre{
+#div-sobre {
     text-align: center;
     width: 25%;
     margin-top: 4%;
@@ -764,6 +764,62 @@ legend{
     height: 30px;
     border-radius: 5px;
     border: none;
+}
+
+#blusa {
+    display: flex;
+   justify-content: space-around;
+    
+}
+
+#blusa-retrato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#blusa-retrato img {
+    width: 190px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#blusa-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#blusa-center img {
+    width: 600px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+
+#bulsa-estrela {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+#bulsa-estrela img {
+    width: 30px;
+}
+
+#blusa-ava {
+    display: flex;
+    flex-direction: column;
+}
+
+#blusa-tam {
+    display: flex;
+}
+
+#blusa-tam p {
+    margin-right: 10px;
 }
 
 footer {
