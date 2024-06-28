@@ -114,7 +114,7 @@ nav a {
 
 .card-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 0.4fr);
     gap: 1rem;
 }
 
@@ -131,7 +131,6 @@ nav a {
 
 .card-content {
     color: var(--branco);
-    padding: 0.3rem;
     text-align: center;
 }
 
@@ -431,7 +430,7 @@ section details p {
 #main-container {
     display: grid;
     gap: 2rem;
-    grid-template-columns: 2fr 10fr;
+    grid-template-columns: 3fr 9fr;
     justify-content: center;
     padding-right: 9rem;
  
@@ -905,3 +904,21 @@ footer {
     left: 50%;
     transform: translateX(-50%);
 }
+
+@media only screen and (min-width: 600px) {
+
+    
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 120) {
+
+    
+}
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1920) {
+
+    
+}
+
