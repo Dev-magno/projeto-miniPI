@@ -929,7 +929,14 @@ footer {
     header {
         background-color: var(--cor-primaria);
         display: grid;
-        grid-template-columns: 1fr 11fr 1fr;
+        grid-template-columns: 1fr 10fr 2fr 1fr;
+        
+        
+    }
+    
+    #buscar {
+        width: 130px;
+     
     }
 
     main{
